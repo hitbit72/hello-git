@@ -25,6 +25,7 @@ Ver el estado actual del proyecto, del branch
 git status
 
 Ver los cambios del branch
+El indicador (HEAD) indica donde nos encontramos
 git log
 
 Regresar un paso atras de un fichero sin commit
@@ -47,6 +48,13 @@ git config --global alias.tree "log --graph --decorate --all --oneline"
 descartar ficheros, ignorarlos y no añadir al branch
 crear un fichero con el nombre ".gitignore" en la carpeta del proyecto
 Editar el fichero ".gitignore" y escribir los nombre de ficheros y carpetas que no queremos incluir en el branch
+
+Ver diferencias en los ficheros antes de crar la fotografia
+git diff
+
+Ir a una fotografia del proyecto con el ID
+Primero miraremos el ID con "git log"
+git checkout 048ba75261a96e394ea874793fda575921547cc6
 
 
 
