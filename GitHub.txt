@@ -85,3 +85,9 @@ git stash
 
 Ver los stash guardados
 git stash list
+
+cargar el stah guardado
+git stash pop
+
+Borrar el estah almacenado
+git stash drop
