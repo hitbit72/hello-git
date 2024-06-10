@@ -77,3 +77,5 @@ git branch login
 Movernos a una rama llamada login
 git switch login
 
+Traer los cambior de la rama main a la rama login
+git merge main 
