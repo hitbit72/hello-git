@@ -79,3 +79,9 @@ git switch login
 
 Traer los cambior de la rama main a la rama login
 git merge main 
+
+Hacer un commit temporal, para poder cambiarse a otra rama temporalmente.
+git stash 
+
+Ver los stash guardados
+git stash list
