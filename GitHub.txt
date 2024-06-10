@@ -60,7 +60,9 @@ Primero miraremos el ID con "git log"
 git checkout 048ba75261a96e394ea874793fda575921547cc6
 
 poner un nombre a un id del branch
+Nos podemos desplazar con checkout con el nombre del tag
 git tag clase_1
+
 
 
 
