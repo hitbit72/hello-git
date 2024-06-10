@@ -31,6 +31,9 @@ Ver los cambios del branch
 El indicador (HEAD) indica donde nos encontramos
 git log
 
+Ver el rgistro del log
+git reflog
+
 Regresar un paso atras de un fichero sin commit
 git checkout nombre_fichero.py
 
@@ -91,3 +94,8 @@ git stash pop
 
 Borrar el estah almacenado
 git stash drop
+
+Eliminar una rama terminada, ya se hizo merge a la rama principal
+Eliminamos la rama login
+git branch -d login
+
