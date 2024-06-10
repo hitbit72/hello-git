@@ -63,10 +63,17 @@ poner un nombre a un id del branch
 Nos podemos desplazar con checkout con el nombre del tag
 git tag clase_1
 
+Eliminar un commit concreto
+Nota: no se suele utilizar, es peligroso, elimina por completo un commit
+git revert
 
 
+RAMAS EN git (brach)
+--------------------
 
+Crear una nueva rama con el nombre login
+git branch login
 
-
-
+Movernos a una rama llamada login
+git switch login
 
