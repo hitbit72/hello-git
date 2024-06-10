@@ -63,10 +63,3 @@ Poner un nombre a un id del branch
 Nos podemos desplazar con checkout con el nombre del tag
 git tag clase_1
 
-
-
-
-
-
-
-
