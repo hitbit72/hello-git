@@ -111,7 +111,11 @@ Sincronizar por primera ver los datos, main es la rama principal
 git push -u origin main
 
 Sincronizar los commit realizados con el repositorio de GitHub:
-Primero descargar el historial de de github por si alguien añadio algo
+
+Hay que indicar el mecanismo para traer los cambios en el config de git
+git config pull.rebase false
+
+ver el historial de de github por si alguien añadio algo
 git fetch
 
 Descargar el historial y los cambios
