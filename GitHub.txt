@@ -110,8 +110,16 @@ La dirección url nos la proporciona GitHub al crear al repositorio
 Sincronizar por primera ver los datos, main es la rama principal
 git push -u origin main
 
-Subir los siguientes commit que se realicen
-git push
+Sincronizar los commit realizados con el repositorio de GitHub:
+Primero descargar el historial de de github por si alguien añadio algo
+git fetch
+
+Descargar el historial y los cambios
+git pull
+
+
+
+
 
 
 
