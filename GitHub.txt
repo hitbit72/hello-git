@@ -99,3 +99,8 @@ Eliminar una rama terminada, ya se hizo merge a la rama principal
 Eliminamos la rama login
 git branch -d login
 
+
+SINCRONIZAR CAMBIOS EN GITHUB
+-----------------------------
+
+
