@@ -115,11 +115,16 @@ Sincronizar los commit realizados con el repositorio de GitHub:
 Hay que indicar el mecanismo para traer los cambios en el config de git
 git config pull.rebase false
 
-ver el historial de de github por si alguien añadio algo
+ver el historial de de github por si alguien añadio algo, pero no descargo nada
 git fetch
 
-Descargar el historial y los cambios
+Descargar el historial y los cambios realizados en GitHub
 git pull
+
+Subir los cambios locales a github
+git push
+
+
 
 
 
