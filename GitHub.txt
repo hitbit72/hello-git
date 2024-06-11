@@ -103,4 +103,11 @@ git branch -d login
 SINCRONIZAR CAMBIOS EN GITHUB
 -----------------------------
 
+Crear un repositorio en la web de GitHub con el nombre deseado
+ejecutar el comando:
+git remote add origin https://github.com/hitbit72/hello-git
+La dirección url nos la proporciona GitHub al crear al repositorio
+Sincronizar por primera ver los datos, main es la rama principal
+git push -u origin main
+
 
