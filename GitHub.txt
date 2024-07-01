@@ -6,9 +6,6 @@ Como se ha visto brevemente en [ch01-introduction], podemos acceder a los ajuste
 $ git config --global user.name "John Doe"
 $ git config --global user.email johndoe@example.com
 
-Cambiar el nombre por defecto de la rama principal a main (Por defecto viene como master)
-git config --global init.defaultbranch main
-
 Crear git en el directorio actual, iniciar el repositorio de git.
 Se crea con el nombre "master" por defecto
 git init
